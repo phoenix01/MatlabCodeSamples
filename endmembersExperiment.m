@@ -5,7 +5,7 @@
 %          - Eest (Estimated Endmembers)
 %  OUTPUT  - SAD , Eucledian Distance
 %% SAD and Euclidean distance : Endmembers
-function [SAD ,Endmembers_EucDistance] = Endmembers_Experiment(Etrue,Eest)
+function [SAD ,Endmembers_EucDistance] = endmembersExperiment(Etrue,Eest)
 
     % SAD Calculation and Euclidean Distance
     SAD = zeros(size(Etrue,2),1);
