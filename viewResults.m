@@ -1,4 +1,4 @@
-function [PlotsFileName] = SUBSUME_BST_SPT_ViewResults(Image, P, E, U, V, parameters)
+function [PlotsFileName] = viewResults(Image, P, E, U, V, parameters)
 %% This function will plot the resuts and save the it in corresponding directories
 % Author- Piyush Khopkar
 % Input- Image data cube
