@@ -6,7 +6,7 @@
 %        : tunableParam < 1
 % Output : Delta_cd
 %%
-function [Delta_cd] = detla_update(X, E, U, P, parameters)
+function [Delta_cd] = detlaUpdate(X, E, U, P, parameters)
 C = parameters.C;
 [N, D] = size(X);
 no_Endmembers = size(P{1},2);
