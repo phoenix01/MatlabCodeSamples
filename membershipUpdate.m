@@ -1,4 +1,4 @@
-function U=U_update(X,P,E,U,V, m)
+function U=membershipUpdate(X,P,E,U,V, m)
 %% Appendix- SUBSUME-V
 % Author- Piyush Khopkar
 % This function updates the fuzzy membership matrix (CXN).
